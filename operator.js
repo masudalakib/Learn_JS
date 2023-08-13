@@ -20,7 +20,7 @@
 
 
 // Accept a number from UserActivation. Temperature in celcius 
-// convert it to Fahrenheit (Formula F  9/5 * c + 32)
+// convert it to Fahrenheit (Formula F  9/5 * c + 32) 
 // print (Fahrenheit 94 Degree)
 // print Tast complete in console
 
