@@ -38,7 +38,7 @@
 // }
 
 //******************************
-// //Fine the Largest Number
+// // //Fine the Largest Number
 
 // var n1 = prompt("First Number: ");
 // var n2 = prompt("Second Number: ");
@@ -60,3 +60,54 @@
 //     console.log(n3 + " is the Largest Number");
 // }
 
+
+//********************* */
+//switch
+
+// console.log("Select an option: \na. Option 1 \nb. option 2 \nc. option 3 ");
+
+// choice = prompt();
+
+// var text;
+
+// if(choice == "a"){
+//     text = "You have selected Option 1";
+// }
+
+// else if (choice == "b"){
+//     text = "You have selected Option 2";
+// }
+
+// else if (choice == "c"){
+//     text = "You have selected Option 3";
+// }
+
+
+// else{
+//     text = "No option is selected!";
+// }
+
+// console.log(text);
+
+
+console.log("Select an option: \na. Option 1 \nb. option 2 \nc. option 3 ");
+
+choice = prompt();
+
+var text;
+switch(choice){
+    case "a" :  //id(choice == "a")
+    text = "Option 1 Selected";
+    break;
+
+    case "b" :  
+    text = "Option 2 Selected";
+    break;
+    case "c" :  
+    text = "Option 3 Selected";
+    break;
+    default:
+        text = "No option is Selected";
+}
+
+console.log(text);
